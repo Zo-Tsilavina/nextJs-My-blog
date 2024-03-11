@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Blog( e ){
+export default function Blog(e){
      return(
           <>
                <Link href={`blog/${e.id}`}>
